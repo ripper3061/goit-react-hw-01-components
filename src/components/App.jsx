@@ -6,7 +6,13 @@ import statistics from './data/data.json';
 export const App = () => {
   return (
     <div>
-      <Profile user={user} />
+      <Profile
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
       <Statistics data={statistics} />
     </div>
   );
