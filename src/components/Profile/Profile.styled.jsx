@@ -35,21 +35,20 @@ export const Location = styled.p`
 `;
 
 export const Stats = styled.ul`
+  background-color: #f4f4f4;
   display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  list-style: none;
   margin: 0;
-  padding: 0;
-  justify-content: space-evenly;
-  list-style-type: none;
+  padding: 25px;
 `;
 
 export const StatsItem = styled.li`
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  padding: 20px;
-  text-align: center;
-  border: 1px solid #d7d7d7;
-  width: 33.33%;
-  background-color: #f4f4f4;
 `;
 
 export const Label = styled.span`
