@@ -6,7 +6,6 @@ export const TransactionHistoryTable = styled.table`
 `;
 export const TableHead = styled.thead`
   background-color: #0097a5;
-  font-weight: 500;
 `;
 export const TableString = styled.tr`
   width: 150px;
@@ -24,6 +23,5 @@ export const TableHeader = styled.th`
   text-align: center;
   border: 1px solid rgb(50, 50, 50);
   text-transform: capitalize;
-  font-weight: 100;
 `;
 export const TableBody = styled.tbody``;
