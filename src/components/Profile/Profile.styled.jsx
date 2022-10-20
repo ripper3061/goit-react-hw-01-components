@@ -1,13 +1,11 @@
 import styled from '@emotion/styled';
 
 export const ProfileCard = styled.div`
-  margin: 25px;
+  margin: 10px auto;
   background-color: #ffffff;
   border-radius: 5px;
   width: 320px;
-  box-shadow: 0px 1px 5px 3px rgba(135, 132, 132, 0.98);
-  -webkit-box-shadow: 0px 1px 5px 3px rgba(135, 132, 132, 0.98);
-  -moz-box-shadow: 0px 1px 5px 3px rgba(135, 132, 132, 0.98);
+  box-shadow: 0px 1px 5px 3px rgba(203, 203, 203, 0.98);
 `;
 
 export const Description = styled.div`
